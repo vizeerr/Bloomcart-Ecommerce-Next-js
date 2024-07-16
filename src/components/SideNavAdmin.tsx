@@ -10,6 +10,7 @@ const SideNavAdmin = () => {
             <Link href={'/admin/add-product'} className='text-xl flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'> Add Product</Link>
             <Link href={'/admin/product-catalog'} className='text-xl flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'> Product Catalog</Link>
             <Link href={'/admin/all-products'} className='text-xl flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'> All Products</Link>
+            <Link href={'/admin/all-orders'} className='text-xl flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group'> All Orders</Link>
 
         </ul>
     </div>
